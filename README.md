@@ -14,7 +14,7 @@ Make sure you have Python 3.8+ installed. Then install the required packages:
 pip install streamlit pandas polars numpy scikit-learn matplotlib joblib pyarrow
 
 Dataset
-The application requires the all_stocks_5yr.csv file
+The application requires the all_stocks_5yr.csv file (Can NOT Upload to the Github because it's over 25MB)
 
 Open a terminal and navigate to the directory containing the script
 Run the following command:
@@ -24,11 +24,3 @@ streamlit run stock_prediction_app.py
 The application will open in your default web browser (typically at http://localhost:8501)
 
 
-📄 File Structure
-project_folder/
-benchmarking.py    # Main application file
-all_stocks_5yr.csv         # Original dataset 
-all_stocks_5yr.parquet     # Converted dataset 
-linear_regression_model.pkl # Saved model 
-random_forest_model.pkl    # Saved model 
-README.md                  # This file
