@@ -25,7 +25,7 @@ The application will open in your default web browser (typically at http://local
 
 
 📄 File Structure
-Copyproject_folder/
+project_folder/
 ├── benchmarking.py    # Main application file
 ├── all_stocks_5yr.csv         # Original dataset 
 ├── all_stocks_5yr.parquet     # Converted dataset 
