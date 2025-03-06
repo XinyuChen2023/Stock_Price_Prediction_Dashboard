@@ -26,9 +26,9 @@ The application will open in your default web browser (typically at http://local
 
 📄 File Structure
 project_folder/
-├── benchmarking.py    # Main application file
-├── all_stocks_5yr.csv         # Original dataset 
-├── all_stocks_5yr.parquet     # Converted dataset 
-├── linear_regression_model.pkl # Saved model 
-├── random_forest_model.pkl    # Saved model 
-└── README.md                  # This file
+benchmarking.py    # Main application file
+all_stocks_5yr.csv         # Original dataset 
+all_stocks_5yr.parquet     # Converted dataset 
+linear_regression_model.pkl # Saved model 
+random_forest_model.pkl    # Saved model 
+README.md                  # This file
